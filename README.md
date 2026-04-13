@@ -1,15 +1,15 @@
-# Machine Learning Project (Classification)
-## Multi-Class Classification Approach to Student Academic Success Prediction
+## Machine Learning Project (Classification)
+### Multi-Class Classification Approach to Student Academic Success Prediction
 
 ---
 
-## Author
+### Author
 
 - Si Tang Lin
 
 ---
 
-## 1. Environment
+### 1. Environment
 
 - Python version: 3.10
 - Tested on: Python 3.10.x
@@ -17,7 +17,7 @@
 
 ---
 
-## 2. Setup Instructions
+### 2. Setup Instructions
 
 1. Create a virtual environment (recommended):
    ```bash
@@ -41,20 +41,20 @@
 
 ---
 
-## 3. Reproducibility
+### 3. Reproducibility
 
 - Random seeds are fixed to ensure reproducible results.
 - All preprocessing steps are included in the code.
 
 ---
 
-## 4. Project Overview
+### 4. Project Overview
 
 This project addresses a **multi-class classification problem** which aimed at predicting student academic outcomes. Its goal is to explore data preprocessing, model selection, evaluation and interpretation.
 
 ---
 
-## 5. Dataset Description
+### 5. Dataset Description
 
 - **Dataset name:** Predict Students' Dropout and Academic Success
 - **Source:** UCI Machine Learning Repository
@@ -66,7 +66,7 @@ This project addresses a **multi-class classification problem** which aimed at p
 
 ---
 
-## 6. Data Preprocessing
+### 6. Data Preprocessing
 
 - Data splitting into train/validation/test
 - Variable typing: Restore to original data type
@@ -83,7 +83,7 @@ This project addresses a **multi-class classification problem** which aimed at p
 
 ---
 
-## 7. Ethical Consideration
+### 7. Ethical Consideration
 
 Potential ethical concerns include:
 
@@ -93,7 +93,7 @@ Potential ethical concerns include:
 
 ---
 
-## 8. Model Use + Class Imbalance Handling
+### 8. Model Use + Class Imbalance Handling
 
 - Gradient Boosting + Undersampling
 - XGBoost with sample weighting
@@ -102,7 +102,7 @@ Potential ethical concerns include:
 
 ---
 
-## 9. Evaluation Metrics
+### 9. Evaluation Metrics
 
 Models were evaluated using:
 
@@ -115,7 +115,7 @@ Metrics were chosen to account for class imbalance and to better evaluate model 
 
 ---
 
-## 10. Results Summary
+### 10. Results Summary
 
 In this project, a multi-class classification approach was applied to predict students' academic outcomes using a real-world higher education dataset.
 
@@ -125,13 +125,13 @@ Future work could include incorporating additional features, applying more advan
 
 ---
 
-## 11. Error Analysis
+### 11. Error Analysis
 
 Most misclassifications occurred between outcome categories with similar academic profiles. Suggesting overlapping feature distributions and highlights the difficulty of predicting academic success based solely on historical data.
 
 ---
 
-## 12. Bibliography
+### 12. Bibliography
 
 - https://dl.acm.org/doi/10.1145/2939672.2939785
 - https://christophm.github.io/interpretable-ml-book/
@@ -140,7 +140,7 @@ Most misclassifications occurred between outcome categories with similar academi
 
 ---
 
-## 13. Code Structure
+### 13. Code Structure
 
 - `machine learning-classification.ipynb`
 - `machine learning-classification.html`
